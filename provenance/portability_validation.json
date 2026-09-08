@@ -1,0 +1,2057 @@
+{
+  "source": "Fresh independent output directory, complete pipeline execution",
+  "status": "complete",
+  "compared_artifacts": 409,
+  "checks": [
+    {
+      "path": "results/repaired/analogue_ablation/all_training_training.csv",
+      "rows": 8048,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/analogue_ablation/paired_rmse_differences.csv",
+      "rows": 2,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/analogue_ablation/random_size_matched_seed42_training.csv",
+      "rows": 5980,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/analogue_ablation/random_size_matched_seed43_training.csv",
+      "rows": 5980,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/analogue_ablation/random_size_matched_seed44_training.csv",
+      "rows": 5980,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/analogue_ablation/random_size_matched_seed45_training.csv",
+      "rows": 5980,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/analogue_ablation/random_size_matched_seed46_training.csv",
+      "rows": 5980,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/analogue_ablation/remove_test_cluster_members_training.csv",
+      "rows": 5980,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/analogue_ablation/summary.csv",
+      "rows": 7,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/analogue_ablation/test_predictions.csv",
+      "rows": 2521,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/clusters/butina_distance_0.3.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/clusters/butina_distance_0.4.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/clusters/butina_distance_0.5.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/docking_incremental_localization.csv",
+      "rows": 5,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/five_split_summary.csv",
+      "rows": 7,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/metrics.csv",
+      "rows": 25,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/paired_comparisons.csv",
+      "rows": 20,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/ADME/calibration_predictions.csv",
+      "rows": 2142,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/ADME/features.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/ADME/imputation_medians.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/ADME/inner_manifest.csv",
+      "rows": 7910,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/ADME/shap_features.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/ADME/shap_groups.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/ADME/shap_sample.csv",
+      "rows": 512,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/ADME/test_predictions.csv",
+      "rows": 2532,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/BBB_pass/calibration_predictions.csv",
+      "rows": 1440,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/BBB_pass/features.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/BBB_pass/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/BBB_pass/inner_manifest.csv",
+      "rows": 5405,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/BBB_pass/shap_features.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/BBB_pass/shap_groups.csv",
+      "rows": 3,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/BBB_pass/shap_sample.csv",
+      "rows": 512,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/BBB_pass/test_predictions.csv",
+      "rows": 1714,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Baseline/calibration_predictions.csv",
+      "rows": 2142,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Baseline/features.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Baseline/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Baseline/inner_manifest.csv",
+      "rows": 7910,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Baseline/shap_features.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Baseline/shap_groups.csv",
+      "rows": 3,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Baseline/shap_sample.csv",
+      "rows": 512,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Baseline/test_predictions.csv",
+      "rows": 2532,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/PCA/calibration_predictions.csv",
+      "rows": 2142,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/PCA/features.csv",
+      "rows": 2053,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/PCA/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/PCA/inner_manifest.csv",
+      "rows": 7910,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/PCA/shap_features.csv",
+      "rows": 2053,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/PCA/shap_groups.csv",
+      "rows": 3,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/PCA/shap_sample.csv",
+      "rows": 512,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/PCA/test_predictions.csv",
+      "rows": 2532,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Plain/calibration_predictions.csv",
+      "rows": 2142,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Plain/features.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Plain/imputation_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Plain/inner_manifest.csv",
+      "rows": 7910,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Plain/shap_features.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Plain/shap_groups.csv",
+      "rows": 2,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Plain/shap_sample.csv",
+      "rows": 512,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed42/Plain/test_predictions.csv",
+      "rows": 2532,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/ADME/calibration_predictions.csv",
+      "rows": 2005,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/ADME/features.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/ADME/imputation_medians.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/ADME/inner_manifest.csv",
+      "rows": 8120,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/ADME/test_predictions.csv",
+      "rows": 2459,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/BBB_pass/calibration_predictions.csv",
+      "rows": 1362,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/BBB_pass/features.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/BBB_pass/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/BBB_pass/inner_manifest.csv",
+      "rows": 5526,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/BBB_pass/test_predictions.csv",
+      "rows": 1671,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/Baseline/calibration_predictions.csv",
+      "rows": 2005,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/Baseline/features.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/Baseline/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/Baseline/inner_manifest.csv",
+      "rows": 8120,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/Baseline/test_predictions.csv",
+      "rows": 2459,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/PCA/calibration_predictions.csv",
+      "rows": 2005,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/PCA/features.csv",
+      "rows": 2053,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/PCA/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/PCA/inner_manifest.csv",
+      "rows": 8120,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/PCA/test_predictions.csv",
+      "rows": 2459,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/Plain/calibration_predictions.csv",
+      "rows": 2005,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/Plain/features.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/Plain/imputation_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/Plain/inner_manifest.csv",
+      "rows": 8120,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed43/Plain/test_predictions.csv",
+      "rows": 2459,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/ADME/calibration_predictions.csv",
+      "rows": 2176,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/ADME/features.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/ADME/imputation_medians.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/ADME/inner_manifest.csv",
+      "rows": 8021,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/ADME/test_predictions.csv",
+      "rows": 2387,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/BBB_pass/calibration_predictions.csv",
+      "rows": 1462,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/BBB_pass/features.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/BBB_pass/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/BBB_pass/inner_manifest.csv",
+      "rows": 5398,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/BBB_pass/test_predictions.csv",
+      "rows": 1699,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/Baseline/calibration_predictions.csv",
+      "rows": 2176,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/Baseline/features.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/Baseline/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/Baseline/inner_manifest.csv",
+      "rows": 8021,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/Baseline/test_predictions.csv",
+      "rows": 2387,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/PCA/calibration_predictions.csv",
+      "rows": 2176,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/PCA/features.csv",
+      "rows": 2053,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/PCA/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/PCA/inner_manifest.csv",
+      "rows": 8021,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/PCA/test_predictions.csv",
+      "rows": 2387,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/Plain/calibration_predictions.csv",
+      "rows": 2176,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/Plain/features.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/Plain/imputation_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/Plain/inner_manifest.csv",
+      "rows": 8021,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed44/Plain/test_predictions.csv",
+      "rows": 2387,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/ADME/calibration_predictions.csv",
+      "rows": 2025,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/ADME/features.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/ADME/imputation_medians.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/ADME/inner_manifest.csv",
+      "rows": 8005,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/ADME/test_predictions.csv",
+      "rows": 2554,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/BBB_pass/calibration_predictions.csv",
+      "rows": 1384,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/BBB_pass/features.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/BBB_pass/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/BBB_pass/inner_manifest.csv",
+      "rows": 5398,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/BBB_pass/test_predictions.csv",
+      "rows": 1777,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/Baseline/calibration_predictions.csv",
+      "rows": 2025,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/Baseline/features.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/Baseline/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/Baseline/inner_manifest.csv",
+      "rows": 8005,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/Baseline/test_predictions.csv",
+      "rows": 2554,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/PCA/calibration_predictions.csv",
+      "rows": 2025,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/PCA/features.csv",
+      "rows": 2053,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/PCA/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/PCA/inner_manifest.csv",
+      "rows": 8005,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/PCA/test_predictions.csv",
+      "rows": 2554,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/Plain/calibration_predictions.csv",
+      "rows": 2025,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/Plain/features.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/Plain/imputation_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/Plain/inner_manifest.csv",
+      "rows": 8005,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed45/Plain/test_predictions.csv",
+      "rows": 2554,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/ADME/calibration_predictions.csv",
+      "rows": 1905,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/ADME/features.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/ADME/imputation_medians.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/ADME/inner_manifest.csv",
+      "rows": 8129,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/ADME/test_predictions.csv",
+      "rows": 2550,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/BBB_pass/calibration_predictions.csv",
+      "rows": 1358,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/BBB_pass/features.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/BBB_pass/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/BBB_pass/inner_manifest.csv",
+      "rows": 5511,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/BBB_pass/test_predictions.csv",
+      "rows": 1690,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/Baseline/calibration_predictions.csv",
+      "rows": 1905,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/Baseline/features.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/Baseline/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/Baseline/inner_manifest.csv",
+      "rows": 8129,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/Baseline/test_predictions.csv",
+      "rows": 2550,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/PCA/calibration_predictions.csv",
+      "rows": 1905,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/PCA/features.csv",
+      "rows": 2053,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/PCA/imputation_medians.csv",
+      "rows": 2094,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/PCA/inner_manifest.csv",
+      "rows": 8129,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/PCA/test_predictions.csv",
+      "rows": 2550,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/Plain/calibration_predictions.csv",
+      "rows": 1905,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/Plain/features.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/Plain/imputation_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/Plain/inner_manifest.csv",
+      "rows": 8129,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/global_models/seed46/Plain/test_predictions.csv",
+      "rows": 2550,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/localization_controls/butina04_seed42_predictions.csv",
+      "rows": 2532,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/localization_controls/butina04_seed43_predictions.csv",
+      "rows": 2459,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/localization_controls/butina04_seed44_predictions.csv",
+      "rows": 2387,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/localization_controls/butina04_seed45_predictions.csv",
+      "rows": 2554,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/localization_controls/butina04_seed46_predictions.csv",
+      "rows": 2550,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/localization_controls/metrics.csv",
+      "rows": 35,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/localization_controls/paired_scores.csv",
+      "rows": 35,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/overview.csv",
+      "rows": 13,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina03_seed42/calibration_predictions.csv",
+      "rows": 1933,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina03_seed42/interval_metrics.csv",
+      "rows": 6,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina03_seed42/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina03_seed42/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina03_seed42/split_manifest.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina03_seed42/test_predictions.csv",
+      "rows": 2607,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina03_seed42/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed42/calibration_predictions.csv",
+      "rows": 2142,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed42/interval_metrics.csv",
+      "rows": 6,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed42/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed42/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed42/split_manifest.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed42/test_predictions.csv",
+      "rows": 2532,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed42/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed43/calibration_predictions.csv",
+      "rows": 2005,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed43/interval_metrics.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed43/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed43/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed43/split_manifest.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed43/test_predictions.csv",
+      "rows": 2459,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed43/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed44/calibration_predictions.csv",
+      "rows": 2176,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed44/interval_metrics.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed44/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed44/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed44/split_manifest.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed44/test_predictions.csv",
+      "rows": 2387,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed44/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed45/calibration_predictions.csv",
+      "rows": 2025,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed45/interval_metrics.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed45/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed45/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed45/split_manifest.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed45/test_predictions.csv",
+      "rows": 2554,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed45/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed46/calibration_predictions.csv",
+      "rows": 1905,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed46/interval_metrics.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed46/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed46/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed46/split_manifest.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed46/test_predictions.csv",
+      "rows": 2550,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina04_seed46/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina05_seed42/calibration_predictions.csv",
+      "rows": 1903,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina05_seed42/interval_metrics.csv",
+      "rows": 6,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina05_seed42/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina05_seed42/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina05_seed42/split_manifest.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina05_seed42/test_predictions.csv",
+      "rows": 2672,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/butina05_seed42/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed42/calibration_predictions.csv",
+      "rows": 2142,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed42/interval_metrics.csv",
+      "rows": 6,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed42/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed42/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed42/split_manifest.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed42/test_predictions.csv",
+      "rows": 2532,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed42/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed43/calibration_predictions.csv",
+      "rows": 2005,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed43/interval_metrics.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed43/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed43/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed43/split_manifest.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed43/test_predictions.csv",
+      "rows": 2459,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed43/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed44/calibration_predictions.csv",
+      "rows": 2176,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed44/interval_metrics.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed44/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed44/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed44/split_manifest.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed44/test_predictions.csv",
+      "rows": 2387,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed44/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed45/calibration_predictions.csv",
+      "rows": 2025,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed45/interval_metrics.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed45/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed45/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed45/split_manifest.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed45/test_predictions.csv",
+      "rows": 2554,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed45/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed46/calibration_predictions.csv",
+      "rows": 1905,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed46/interval_metrics.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed46/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed46/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed46/split_manifest.csv",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed46/test_predictions.csv",
+      "rows": 2550,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/random_size_matched_seed46/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/repaired_reference/calibration_predictions.csv",
+      "rows": 2014,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/repaired_reference/interval_metrics.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/repaired_reference/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/repaired_reference/split_manifest.csv",
+      "rows": 12583,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/repaired_reference/test_predictions.csv",
+      "rows": 2521,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/runs/repaired_reference/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/similarity/butina03_seed42.csv",
+      "rows": 4540,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/similarity/butina04_seed42.csv",
+      "rows": 4674,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/similarity/butina04_seed43.csv",
+      "rows": 4464,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/similarity/butina04_seed44.csv",
+      "rows": 4563,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/similarity/butina04_seed45.csv",
+      "rows": 4579,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/similarity/butina04_seed46.csv",
+      "rows": 4455,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/similarity/butina05_seed42.csv",
+      "rows": 4575,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/similarity/random_size_matched_seed42.csv",
+      "rows": 4674,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/similarity/random_size_matched_seed43.csv",
+      "rows": 4464,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/similarity/random_size_matched_seed44.csv",
+      "rows": 4563,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/similarity/random_size_matched_seed45.csv",
+      "rows": 4579,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/similarity/random_size_matched_seed46.csv",
+      "rows": 4455,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/similarity/repaired_reference.csv",
+      "rows": 4535,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/similarity/summary.csv",
+      "rows": 26,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_global_comparison.csv",
+      "rows": 10,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/five_split_summary.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/metrics.csv",
+      "rows": 10,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/ADME/calibration_predictions.csv",
+      "rows": 2081,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/ADME/features.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/ADME/imputation_medians.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/ADME/inner_manifest.csv",
+      "rows": 7648,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/ADME/shap_features.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/ADME/shap_groups.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/ADME/shap_sample.csv",
+      "rows": 512,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/ADME/test_predictions.csv",
+      "rows": 2464,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/Plain/calibration_predictions.csv",
+      "rows": 2081,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/Plain/features.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/Plain/imputation_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/Plain/inner_manifest.csv",
+      "rows": 7648,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/Plain/shap_features.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/Plain/shap_groups.csv",
+      "rows": 2,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/Plain/shap_sample.csv",
+      "rows": 512,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed42/Plain/test_predictions.csv",
+      "rows": 2464,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed43/ADME/calibration_predictions.csv",
+      "rows": 1957,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed43/ADME/features.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed43/ADME/imputation_medians.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed43/ADME/inner_manifest.csv",
+      "rows": 7844,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed43/ADME/test_predictions.csv",
+      "rows": 2392,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed43/Plain/calibration_predictions.csv",
+      "rows": 1957,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed43/Plain/features.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed43/Plain/imputation_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed43/Plain/inner_manifest.csv",
+      "rows": 7844,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed43/Plain/test_predictions.csv",
+      "rows": 2392,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed44/ADME/calibration_predictions.csv",
+      "rows": 2112,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed44/ADME/features.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed44/ADME/imputation_medians.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed44/ADME/inner_manifest.csv",
+      "rows": 7749,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed44/ADME/test_predictions.csv",
+      "rows": 2332,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed44/Plain/calibration_predictions.csv",
+      "rows": 2112,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed44/Plain/features.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed44/Plain/imputation_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed44/Plain/inner_manifest.csv",
+      "rows": 7749,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed44/Plain/test_predictions.csv",
+      "rows": 2332,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed45/ADME/calibration_predictions.csv",
+      "rows": 1953,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed45/ADME/features.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed45/ADME/imputation_medians.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed45/ADME/inner_manifest.csv",
+      "rows": 7740,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed45/ADME/test_predictions.csv",
+      "rows": 2500,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed45/Plain/calibration_predictions.csv",
+      "rows": 1953,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed45/Plain/features.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed45/Plain/imputation_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed45/Plain/inner_manifest.csv",
+      "rows": 7740,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed45/Plain/test_predictions.csv",
+      "rows": 2500,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed46/ADME/calibration_predictions.csv",
+      "rows": 1849,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed46/ADME/features.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed46/ADME/imputation_medians.csv",
+      "rows": 2162,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed46/ADME/inner_manifest.csv",
+      "rows": 7850,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed46/ADME/test_predictions.csv",
+      "rows": 2494,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed46/Plain/calibration_predictions.csv",
+      "rows": 1849,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed46/Plain/features.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed46/Plain/imputation_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed46/Plain/inner_manifest.csv",
+      "rows": 7850,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/global_models/seed46/Plain/test_predictions.csv",
+      "rows": 2494,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/overview.csv",
+      "rows": 5,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed42/calibration_predictions.csv",
+      "rows": 2081,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed42/interval_metrics.csv",
+      "rows": 6,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed42/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed42/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed42/split_manifest.csv",
+      "rows": 12193,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed42/test_predictions.csv",
+      "rows": 2464,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed42/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed43/calibration_predictions.csv",
+      "rows": 1957,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed43/interval_metrics.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed43/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed43/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed43/split_manifest.csv",
+      "rows": 12193,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed43/test_predictions.csv",
+      "rows": 2392,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed43/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed44/calibration_predictions.csv",
+      "rows": 2112,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed44/interval_metrics.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed44/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed44/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed44/split_manifest.csv",
+      "rows": 12193,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed44/test_predictions.csv",
+      "rows": 2332,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed44/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed45/calibration_predictions.csv",
+      "rows": 1953,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed45/interval_metrics.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed45/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed45/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed45/split_manifest.csv",
+      "rows": 12193,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed45/test_predictions.csv",
+      "rows": 2500,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed45/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed46/calibration_predictions.csv",
+      "rows": 1849,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed46/interval_metrics.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed46/marker_screening.csv",
+      "rows": 19,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed46/quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed46/split_manifest.csv",
+      "rows": 12193,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed46/test_predictions.csv",
+      "rows": 2494,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strict_identity/runs/butina04_seed46/training_medians.csv",
+      "rows": 2050,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strong_predictor_calibration/ADME_seed42_predictions.csv",
+      "rows": 2532,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strong_predictor_calibration/ADME_seed43_predictions.csv",
+      "rows": 2459,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strong_predictor_calibration/ADME_seed44_predictions.csv",
+      "rows": 2387,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strong_predictor_calibration/ADME_seed45_predictions.csv",
+      "rows": 2554,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strong_predictor_calibration/ADME_seed46_predictions.csv",
+      "rows": 2550,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strong_predictor_calibration/Plain_seed42_predictions.csv",
+      "rows": 2532,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strong_predictor_calibration/Plain_seed43_predictions.csv",
+      "rows": 2459,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strong_predictor_calibration/Plain_seed44_predictions.csv",
+      "rows": 2387,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strong_predictor_calibration/Plain_seed45_predictions.csv",
+      "rows": 2554,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strong_predictor_calibration/Plain_seed46_predictions.csv",
+      "rows": 2550,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strong_predictor_calibration/metrics.csv",
+      "rows": 20,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/strong_predictor_calibration/paired_scores.csv",
+      "rows": 10,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/tables/all_interval_metrics.csv",
+      "rows": 60,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/tables/all_quadrants.csv",
+      "rows": 52,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/tables/figure3_grouped_shap.csv",
+      "rows": 20,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/tables/figure5_grid.csv",
+      "rows": 6400,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/tables/five_split_summary.csv",
+      "rows": 14,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/tables/selected_markers.csv",
+      "rows": 13,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/tables/table1_primary_global_models.csv",
+      "rows": 5,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/tables/table2_primary_intervals.csv",
+      "rows": 6,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/repaired/tables/table3_primary_quadrants.csv",
+      "rows": 4,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/bbb_paired_comparison.csv",
+      "rows": 10,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/bbb_same_subset.csv",
+      "rows": 15,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/btox_residual_deciles.csv",
+      "rows": 50,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/docking_normalization.csv",
+      "rows": 10,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/docking_normalization_seed42.csv",
+      "rows": 44,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/docking_normalization_seed43.csv",
+      "rows": 44,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/docking_normalization_seed44.csv",
+      "rows": 44,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/docking_normalization_seed45.csv",
+      "rows": 44,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/docking_normalization_seed46.csv",
+      "rows": 44,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/fallback_sensitivity.csv",
+      "rows": 15,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/group_permutation_importance.csv",
+      "rows": 35,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/narrower_interval_confidence.csv",
+      "rows": 20,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/normalized_docking_predictions_seed42.csv",
+      "rows": 2532,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/normalized_docking_predictions_seed43.csv",
+      "rows": 2459,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/normalized_docking_predictions_seed44.csv",
+      "rows": 2387,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/normalized_docking_predictions_seed45.csv",
+      "rows": 2554,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/normalized_docking_predictions_seed46.csv",
+      "rows": 2550,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/phenotype_correlations.csv",
+      "rows": 45,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/phenotype_vif.csv",
+      "rows": 35,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "results/additional/quadrant_threshold_bootstrap.csv",
+      "rows": 10,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "data/processed/audited_parent_matched.csv.gz",
+      "rows": 12584,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "data/processed/strict_exact_identity.csv.gz",
+      "rows": 12193,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "data/processed/identity_manifest.csv.gz",
+      "rows": 12651,
+      "numeric_and_ID_values_match": true
+    },
+    {
+      "path": "data/processed/published_association_audit.csv.gz",
+      "rows": 12651,
+      "numeric_and_ID_values_match": true
+    }
+  ],
+  "not_regenerated_by_pipeline": [],
+  "comparison_tolerance": {
+    "rtol": 1e-08,
+    "atol": 1e-10
+  }
+}

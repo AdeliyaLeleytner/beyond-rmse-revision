@@ -1,0 +1,12 @@
+# Additional checks prompted by the complete reviews
+
+Specified before computing these additional results, 7 September 2026. These are retrospective sensitivity analyses, not preregistered experiments. Use the repaired 12,584-compound cohort and the five existing whole-cluster partitions (42–46); do not change fitted models, calibration membership, test membership or select settings using test performance.
+
+1. Replace raw mean44 only in the four-dimensional localization coordinates by the mean of target-wise standardized docking scores. Fit all 44 means/SDs on proper training; standardize the resulting coordinate on proper training again. Compare with the saved raw-mean and phenotype-only intervals using paired test-cluster bootstrap interval-score differences.
+2. For the original four-dimensional kernel (h=0.9), report effective-support fallback fractions and sensitivity to cutoffs 40, 80 and 120. The cutoff-80 output must reproduce saved intervals. Export Figure 5 ranges and masked fractions for each panel.
+3. Report proper-training correlations and VIFs for the three actual phenotype coordinates, plus a separately labelled diagnostic that adds the unused hERG-10um endpoint. Describe held-out residual variance in proper-training-defined BTox deciles; do not interpret this as a causal or calibrated toxicity scale.
+4. Bootstrap whole proper-training clusters 1,000 times for quadrant medians; report 95% percentile intervals and held-out quadrant assignment instability. Add Wilson binomial and whole-test-cluster bootstrap intervals to the Table 3 narrower-than-global proportions. The binomial intervals are descriptive because molecules are clustered.
+5. Evaluate the full-cohort Plain and Baseline models on exactly the same test compounds as each BBB-pass model. Include target variance, RMSE/target SD, other metrics and paired test-cluster bootstrap MSE differences.
+6. Compute group permutation importance for the saved Baseline and ADME models on all five held-out partitions. Jointly permute all columns within a feature block, preserving within-block dependence, with five repetitions and a fixed random stream (seed 20260908). Report changes in MSE and paired test-cluster bootstrap uncertainty. This is post-fit sensitivity, not a causal attribution or substitute for fully matched retraining ablations.
+
+All bootstrap intervals condition on the fitted model and calibration set. Overlapping repeated partitions are descriptive, not five independent experiments.

@@ -1,0 +1,36 @@
+{
+  "premerge_master_n": 12652,
+  "raw_admet_n": 12652,
+  "invalid_admet_ligand_ids": [
+    11434
+  ],
+  "published_master_missing_ids": [
+    9116
+  ],
+  "published_wrong_ADMET_association_n": 1678,
+  "published_wrong_association_first_last_id": [
+    9117,
+    11434
+  ],
+  "identity_status_counts": {
+    "exact_isomeric_identity": 12193,
+    "unique_charge_parent": 391,
+    "unresolved_structure_transform": 67
+  },
+  "primary_n": 12584,
+  "strict_n": 12193,
+  "extra_core_columns": [
+    "8pm6",
+    "6itm",
+    "9fzj",
+    "9yk4",
+    "Murcko_Scaffold",
+    "gsomks_47"
+  ],
+  "raw_and_master_alignment_caveat": "Original API request manifest absent. Raw/master row pairing is supported by original cleaning code, matching lengths, exact structural anchors, and independently verified exact or unique uncharged isomeric identity for every retained row. Unresolved transformations are excluded, not presumed correct.",
+  "source_sha256": {
+    "toxicodynamics/data/df_final.csv": "81da122fa24bc2b32516ef230731c7d6bc837603fb6baeca655bf8aef6384720",
+    "Toxicodynamics-aware-data/processed/prepared_admet.csv": "78568c3992e2131e7e6ddc7a1922bfdc4f8e9e6e78754a818e68a012a6d41ef2",
+    "tmp/reviewer1_audit/admet_source_history.csv": "2039170965e1a499ea7a39a42893f103b7e803af92fe37e3704ab9d3ce41912d"
+  }
+}

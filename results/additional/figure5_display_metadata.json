@@ -1,0 +1,30 @@
+{
+  "grid_cells": 6400,
+  "mean_E_min": -8.93409090909091,
+  "mean_E_max": -0.9258181818181832,
+  "BTox_min": 0.0810747979400912,
+  "BTox_max": 2.9694805872440337,
+  "mask_neff_below": 120,
+  "panels": {
+    "mean": {
+      "masked_n": 2437,
+      "masked_fraction": 0.38078125,
+      "h": 0.45
+    },
+    "variance": {
+      "masked_n": 2437,
+      "masked_fraction": 0.38078125,
+      "h": 0.45
+    },
+    "width": {
+      "masked_n": 2437,
+      "masked_fraction": 0.38078125,
+      "h": 0.45
+    },
+    "coverage": {
+      "masked_n": 598,
+      "masked_fraction": 0.0934375,
+      "h": 0.75
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "runs": [
+    {
+      "run": "butina03_seed42",
+      "verified": true,
+      "n_assigned": 12651
+    },
+    {
+      "run": "butina04_seed42",
+      "verified": true,
+      "n_assigned": 12651
+    },
+    {
+      "run": "butina04_seed43",
+      "verified": true,
+      "n_assigned": 12651
+    },
+    {
+      "run": "butina04_seed44",
+      "verified": true,
+      "n_assigned": 12651
+    },
+    {
+      "run": "butina04_seed45",
+      "verified": true,
+      "n_assigned": 12651
+    },
+    {
+      "run": "butina04_seed46",
+      "verified": true,
+      "n_assigned": 12651
+    },
+    {
+      "run": "butina05_seed42",
+      "verified": true,
+      "n_assigned": 12651
+    },
+    {
+      "run": "legacy_groups_registry1",
+      "verified": true,
+      "n_assigned": 12651
+    },
+    {
+      "run": "legacy_same_test_random_calibration",
+      "verified": true,
+      "n_assigned": 12651
+    },
+    {
+      "run": "original_reinstated",
+      "verified": true,
+      "n_assigned": 12651
+    },
+    {
+      "run": "original_reproduction",
+      "verified": true,
+      "n_assigned": 12650
+    },
+    {
+      "run": "random_size_matched_seed42",
+      "verified": true,
+      "n_assigned": 12651
+    },
+    {
+      "run": "random_size_matched_seed43",
+      "verified": true,
+      "n_assigned": 12651
+    },
+    {
+      "run": "random_size_matched_seed44",
+      "verified": true,
+      "n_assigned": 12651
+    },
+    {
+      "run": "random_size_matched_seed45",
+      "verified": true,
+      "n_assigned": 12651
+    },
+    {
+      "run": "random_size_matched_seed46",
+      "verified": true,
+      "n_assigned": 12651
+    }
+  ],
+  "exact_baseline_reproduced": true,
+  "local_quantile_oracle_tests": true,
+  "selection_invariant_to_calibration_and_test_targets": true,
+  "public_dataset_sha256": "ad729bde9ba34fbb2c802ee0720404f97a6e5227294920b1fecb51bfde844bdb"
+}

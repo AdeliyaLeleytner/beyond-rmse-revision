@@ -1,0 +1,5 @@
+group,mean_absolute_shap
+ADME,0.7819530666237208
+docking,0.11068295545692182
+fingerprints,0.27494787407346916
+physicochemical,0.0956676239881883

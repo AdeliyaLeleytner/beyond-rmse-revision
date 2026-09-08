@@ -1,0 +1,39 @@
+{
+  "run": "random_size_matched_seed45",
+  "counts": {
+    "train": 8005,
+    "calibration": 2025,
+    "test": 2554
+  },
+  "selected_markers": [
+    "hERG",
+    "Respiratory",
+    "Neurotoxicity-DI"
+  ],
+  "rmse": 0.4914995901767361,
+  "mae": 0.3467817684049735,
+  "r2": 0.5542349102553189,
+  "spearman": 0.7141063576353605,
+  "global_quantile": 0.7151098749649893,
+  "original_quantile_rule": false,
+  "coordinate_scaler_fit": "proper_train",
+  "coordinate_mu": [
+    -6.601854522741485,
+    0.3468584586964965,
+    0.777785768621664,
+    0.6329352338188533
+  ],
+  "coordinate_sd": [
+    1.9232513974887735,
+    0.3132011607967595,
+    0.2649859655623037,
+    0.33089537831231847
+  ],
+  "quadrant_thresholds": {
+    "phenotype": 1.787669911980629,
+    "mean_E": -6.797727272727272
+  },
+  "model_seed": 42,
+  "elapsed_seconds": 5.053997039794922,
+  "train_fingerprint_count": 2048
+}

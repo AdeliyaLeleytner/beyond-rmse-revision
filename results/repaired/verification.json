@@ -1,0 +1,138 @@
+{
+  "confidence_runs": [
+    {
+      "cohort": "repaired",
+      "run": "butina03_seed42",
+      "n": 12584,
+      "verified": true
+    },
+    {
+      "cohort": "repaired",
+      "run": "butina04_seed42",
+      "n": 12584,
+      "verified": true
+    },
+    {
+      "cohort": "repaired",
+      "run": "butina04_seed43",
+      "n": 12584,
+      "verified": true
+    },
+    {
+      "cohort": "repaired",
+      "run": "butina04_seed44",
+      "n": 12584,
+      "verified": true
+    },
+    {
+      "cohort": "repaired",
+      "run": "butina04_seed45",
+      "n": 12584,
+      "verified": true
+    },
+    {
+      "cohort": "repaired",
+      "run": "butina04_seed46",
+      "n": 12584,
+      "verified": true
+    },
+    {
+      "cohort": "repaired",
+      "run": "butina05_seed42",
+      "n": 12584,
+      "verified": true
+    },
+    {
+      "cohort": "repaired",
+      "run": "random_size_matched_seed42",
+      "n": 12584,
+      "verified": true
+    },
+    {
+      "cohort": "repaired",
+      "run": "random_size_matched_seed43",
+      "n": 12584,
+      "verified": true
+    },
+    {
+      "cohort": "repaired",
+      "run": "random_size_matched_seed44",
+      "n": 12584,
+      "verified": true
+    },
+    {
+      "cohort": "repaired",
+      "run": "random_size_matched_seed45",
+      "n": 12584,
+      "verified": true
+    },
+    {
+      "cohort": "repaired",
+      "run": "random_size_matched_seed46",
+      "n": 12584,
+      "verified": true
+    },
+    {
+      "cohort": "repaired",
+      "run": "repaired_reference",
+      "n": 12583,
+      "verified": true
+    },
+    {
+      "cohort": "strict_identity",
+      "run": "butina04_seed42",
+      "n": 12193,
+      "verified": true
+    },
+    {
+      "cohort": "strict_identity",
+      "run": "butina04_seed43",
+      "n": 12193,
+      "verified": true
+    },
+    {
+      "cohort": "strict_identity",
+      "run": "butina04_seed44",
+      "n": 12193,
+      "verified": true
+    },
+    {
+      "cohort": "strict_identity",
+      "run": "butina04_seed45",
+      "n": 12193,
+      "verified": true
+    },
+    {
+      "cohort": "strict_identity",
+      "run": "butina04_seed46",
+      "n": 12193,
+      "verified": true
+    }
+  ],
+  "global_model_runs_verified": 25,
+  "n_primary": 12584,
+  "identity_manifest_checked": true,
+  "holdout_label_perturbation_does_not_change_marker_selection": true,
+  "quantile_oracles": true,
+  "repaired_dataset_sha256": "44c1646daaec0ab5037032d435e526d3e532d98c46824981eab11a2a28404264",
+  "note": "These checks verify recorded computation and cohort accounting, not biological correctness or prospective validity.",
+  "strict_global_models_verified": 10,
+  "repaired_model_fingerprints_match_chiral_Morgan": {
+    "n": 12584,
+    "mismatches": 0,
+    "rdkit_version": "2025.03.6"
+  },
+  "SHAP_additivity_checked_models": 5,
+  "strong_predictor_local_calibration_scenarios_verified": 10,
+  "figures_visually_inspected": [
+    "figure1_revised",
+    "figure2_revised",
+    "figure3_revised",
+    "figure4_Baseline",
+    "figure4_BBB_pass",
+    "figure4_ADME",
+    "figure5_revised_seed42",
+    "recalculation_comparison",
+    "quadrant_robustness"
+  ]
+}

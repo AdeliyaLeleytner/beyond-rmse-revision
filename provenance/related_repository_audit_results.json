@@ -1,0 +1,232 @@
+{
+  "commit": "5a3b2a257782e40538eea0d2d6ea940fa87ae822",
+  "verified_public_files": {
+    "data/processed/df_final.csv": {
+      "sha256": "33b942ea09816ea236b3b67930d2e5c70ecc8586b6bf8dad45ef25aa12d02922",
+      "size": 78592376,
+      "read_from": "Toxicodynamics-aware-data/processed/df_final.csv"
+    },
+    "data/processed/prepared_admet.csv": {
+      "sha256": "78568c3992e2131e7e6ddc7a1922bfdc4f8e9e6e78754a818e68a012a6d41ef2",
+      "size": 21349636,
+      "read_from": "Toxicodynamics-aware-data/processed/prepared_admet.csv"
+    },
+    "data/raw/admet.csv": {
+      "sha256": "2039170965e1a499ea7a39a42893f103b7e803af92fe37e3704ab9d3ce41912d",
+      "size": 174764186,
+      "read_from": "tmp/reviewer1_audit/admet_source_history.csv"
+    },
+    "data/raw/docking_scores.csv": {
+      "sha256": "4d9d70c2382be7f75bec26b9460f77813fda60e59c7729116900d1f4edb06489",
+      "size": 8298794,
+      "read_from": "output/reviewer1/public_repo_audit/lfs/data/raw/docking_scores.csv"
+    },
+    "data/splits/train.csv": {
+      "sha256": "aa877e73535203514402b7ceea986cf82ca9b8b31994d32c9accd2c04b53b391",
+      "size": 42532,
+      "read_from": "output/reviewer1/public_repo_audit/lfs/data/splits/train.csv"
+    },
+    "data/splits/val.csv": {
+      "sha256": "70e05d003052a86b8e51ef6c08440d5b3463fdbc709f1a7875360024b89d44cc",
+      "size": 10973,
+      "read_from": "output/reviewer1/public_repo_audit/lfs/data/splits/val.csv"
+    },
+    "data/splits/test.csv": {
+      "sha256": "b3c5ab6657af9e632f82e43128de94b38e530dd83ad854274a16731ba1fbdd0b",
+      "size": 13464,
+      "read_from": "output/reviewer1/public_repo_audit/lfs/data/splits/test.csv"
+    },
+    "results/tables/summary.csv": {
+      "sha256": "28b783ea9544de5ba7d93ef3a84673a89c56c5a1b4bc4f1823ddec5b408f2559",
+      "size": 1090,
+      "read_from": "output/reviewer1/public_repo_audit/lfs/results/tables/summary.csv"
+    }
+  },
+  "shape": [
+    12651,
+    2232
+  ],
+  "unique_ids": 12651,
+  "duplicate_exact_structure_rows_beyond_first": 0,
+  "clusters": 8150,
+  "missing_cluster": 0,
+  "admet": {
+    "shared_numeric_columns": 120,
+    "configured_features": 68,
+    "missing_configured_features": [],
+    "wrong_associations": 1678,
+    "wrong_fraction": 0.13263773614734012,
+    "wrong_first_last_id": [
+      9117,
+      11434
+    ],
+    "missing_master_ids": [
+      9116
+    ],
+    "invalid_source_ids": [
+      11434
+    ],
+    "dropped_docking_index9115": [
+      {
+        "ligand_id": 9116,
+        "Cleaned SMILES": "Cc1cccc(N2CC[N+](C)(CCC#N)CC2)c1"
+      }
+    ],
+    "examples": [
+      {
+        "ligand_id": 9117,
+        "ADMET_source_ligand_id": 9116,
+        "wrong": true,
+        "molecule_smiles": "Cc1ccc(N2CC[N+](C)(CCC#N)CC2)cc1",
+        "ADMET_smiles": "Cc1cccc(N2CC[N+](C)(CCC#N)CC2)c1"
+      },
+      {
+        "ligand_id": 9118,
+        "ADMET_source_ligand_id": 9117,
+        "wrong": true,
+        "molecule_smiles": "C[N+]1(CCC#N)CCN(c2ccccc2Cl)CC1",
+        "ADMET_smiles": "Cc1ccc(N2CC[N+](C)(CCC#N)CC2)cc1"
+      },
+      {
+        "ligand_id": 9119,
+        "ADMET_source_ligand_id": 9118,
+        "wrong": true,
+        "molecule_smiles": "C[N+]1(CCC#N)CCN(c2cccc(Cl)c2)CC1",
+        "ADMET_smiles": "C[N+]1(CCC#N)CCN(c2ccccc2Cl)CC1"
+      }
+    ]
+  },
+  "saved_splits": {
+    "sizes": {
+      "train": 8043,
+      "val": 2071,
+      "test": 2537
+    },
+    "unassigned": [],
+    "pairs": [
+      {
+        "pair": "train/val",
+        "shared_ids": 0,
+        "shared_clusters": 0
+      },
+      {
+        "pair": "train/test",
+        "shared_ids": 0,
+        "shared_clusters": 0
+      },
+      {
+        "pair": "val/test",
+        "shared_ids": 0,
+        "shared_clusters": 0
+      }
+    ]
+  },
+  "regenerated_splits": {
+    "sizes": {
+      "train": 8043,
+      "val": 2071,
+      "test": 2537
+    },
+    "unassigned": [],
+    "pairs": [
+      {
+        "pair": "train/val",
+        "shared_ids": 0,
+        "shared_clusters": 0
+      },
+      {
+        "pair": "train/test",
+        "shared_ids": 0,
+        "shared_clusters": 0
+      },
+      {
+        "pair": "val/test",
+        "shared_ids": 0,
+        "shared_clusters": 0
+      }
+    ]
+  },
+  "saved_equals_regenerated": {
+    "train": true,
+    "val": true,
+    "test": true
+  },
+  "conformal_iteration0": {
+    "calibration": 500,
+    "evaluation": 2037,
+    "shared_clusters": 172
+  },
+  "target_transform_max_abs_error": 1.3322676295501878e-15,
+  "public_summary": [
+    {
+      "model": "Baseline",
+      "RMSE": 0.5171276240133104,
+      "MAE": 0.3583961826251774,
+      "MSE": 0.2674209795176517,
+      "R2": 0.4911552654398778,
+      "MAPE": 1024.6179210893683,
+      "Spearman": 0.7041162098088607,
+      "CCC": 0.6593496879460754,
+      "CI_0.8_size": 1.132479203299747,
+      "CI_0.9_size": 1.6250216767051608,
+      "CI_0.95_size": 2.189599197921223,
+      "n_train": 10114
+    },
+    {
+      "model": "PCA",
+      "RMSE": 0.5103961585229909,
+      "MAE": 0.3527686319458117,
+      "MSE": 0.2605042386350261,
+      "R2": 0.5043163389831318,
+      "MAPE": 949.577512636799,
+      "Spearman": 0.7161146474201278,
+      "CCC": 0.667599126328393,
+      "CI_0.8_size": 1.1120165133829851,
+      "CI_0.9_size": 1.61641304261246,
+      "CI_0.95_size": 2.1587720300798345,
+      "n_train": 10114
+    },
+    {
+      "model": "ADME",
+      "RMSE": 0.5023308433987138,
+      "MAE": 0.343584711348892,
+      "MSE": 0.2523362762296631,
+      "R2": 0.5198582185677123,
+      "MAPE": 775.1775564039779,
+      "Spearman": 0.7241336202001347,
+      "CCC": 0.6714053495100297,
+      "CI_0.8_size": 1.089380345860204,
+      "CI_0.9_size": 1.560132260412104,
+      "CI_0.95_size": 2.1518981602713305,
+      "n_train": 10114
+    },
+    {
+      "model": "Plain",
+      "RMSE": 0.5046965849214492,
+      "MAE": 0.3501364240706529,
+      "MSE": 0.2547186428313736,
+      "R2": 0.515325086188724,
+      "MAPE": 672.3995219436788,
+      "Spearman": 0.713829798053674,
+      "CCC": 0.6798965301904473,
+      "CI_0.8_size": 1.1121452511833732,
+      "CI_0.9_size": 1.5954481800744102,
+      "CI_0.95_size": 2.0836852251560445,
+      "n_train": 10114
+    },
+    {
+      "model": "BBB pass",
+      "RMSE": 0.477812750470206,
+      "MAE": 0.3296196855142885,
+      "MSE": 0.2283050245119033,
+      "R2": 0.4349588324621096,
+      "MAPE": 669.2247489520084,
+      "Spearman": 0.6695019656266794,
+      "CCC": 0.6019437475030592,
+      "CI_0.8_size": 1.038126703518482,
+      "CI_0.9_size": 1.4940185553241148,
+      "CI_0.95_size": 1.9391736339678949,
+      "n_train": 6871
+    }
+  ]
+}

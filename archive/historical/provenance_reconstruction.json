@@ -1,0 +1,31 @@
+{
+  "stored_Morgan_includeChirality_true_mismatch_count": 0,
+  "mismatch_ids": [],
+  "random_split_reconstruction_matches": [],
+  "legacy_group_split_seed42_reconstruction": {
+    "train": {
+      "n_reconstructed": 8043,
+      "exact_id_set_match": true,
+      "only_saved": [],
+      "only_reconstructed": []
+    },
+    "val": {
+      "n_reconstructed": 2071,
+      "exact_id_set_match": true,
+      "only_saved": [],
+      "only_reconstructed": []
+    },
+    "test": {
+      "n_reconstructed": 2537,
+      "exact_id_set_match": true,
+      "only_saved": [],
+      "only_reconstructed": []
+    }
+  },
+  "historical_provenance_caveat": "Matching assignments is a computational reconstruction, not proof of the original execution history.",
+  "MW_vs_MW_g_per_mol": {
+    "max_abs_difference": 1095.5929999999998,
+    "mean_abs_difference": 11.837289226148174,
+    "exact_equal_fraction": 0.0
+  }
+}

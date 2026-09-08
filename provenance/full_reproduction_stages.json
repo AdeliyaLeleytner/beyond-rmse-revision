@@ -1,0 +1,17 @@
+{
+  "source_data_signature": "13a25125da6fe6bb10ad230ff2132a12798640b5c9fc8a0260179d878d3905d9",
+  "stages_completed": [
+    "identity_repair",
+    "structural_splits_and_confidence",
+    "primary_global_and_strict_confidence",
+    "strict_global",
+    "verification_and_maps",
+    "global_figures_and_SHAP",
+    "strong_predictor_calibration",
+    "strict_and_fingerprint_checks",
+    "incremental_docking",
+    "reviewer_additional_checks",
+    "readable_figure4"
+  ],
+  "status": "complete"
+}

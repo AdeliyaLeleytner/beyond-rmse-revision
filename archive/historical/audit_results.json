@@ -1,0 +1,125 @@
+{
+  "public_commit": "23b50718f8eedbfb2eb8dc33067dfb0887b159b2",
+  "dataset_rows": 12651,
+  "unique_ligand_ids": 12651,
+  "missing_cluster_labels": 0,
+  "exclusions": [
+    {
+      "ligand_id": 1298,
+      "Pubchem CID": 120203,
+      "scope": "all_model_splits",
+      "reason": "High-promiscuity PFAS-like outlier: p=43, baseline CatBoost full-test abs_error=1.5065; excluded from all train/val/test splits at code level.",
+      "source": "promiscuity/high_p_error_outliers.csv"
+    }
+  ],
+  "experiments": {
+    "0": {
+      "raw_counts": {
+        "test": 2531,
+        "train": 10120
+      },
+      "effective_counts": {
+        "train": 8096,
+        "calibration": 2024,
+        "test": 2530
+      },
+      "unassigned_ids": [
+        1298
+      ],
+      "pairs": [
+        {
+          "pair": "train/calibration",
+          "shared_ligand_ids": 0,
+          "shared_clusters": 613,
+          "a_molecules_in_shared_clusters": 1831,
+          "b_molecules_in_shared_clusters": 863
+        },
+        {
+          "pair": "train/test",
+          "shared_ligand_ids": 0,
+          "shared_clusters": 724,
+          "a_molecules_in_shared_clusters": 2072,
+          "b_molecules_in_shared_clusters": 1057
+        },
+        {
+          "pair": "calibration/test",
+          "shared_ligand_ids": 0,
+          "shared_clusters": 343,
+          "a_molecules_in_shared_clusters": 549,
+          "b_molecules_in_shared_clusters": 582
+        }
+      ]
+    },
+    "1": {
+      "raw_counts": {
+        "test": 2537,
+        "train": 8043,
+        "val": 2071
+      },
+      "effective_counts": {
+        "test": 2537,
+        "train": 8043,
+        "val": 2071
+      },
+      "unassigned_ids": [],
+      "pairs": [
+        {
+          "pair": "test/train",
+          "shared_ligand_ids": 0,
+          "shared_clusters": 0,
+          "a_molecules_in_shared_clusters": 0,
+          "b_molecules_in_shared_clusters": 0
+        },
+        {
+          "pair": "test/val",
+          "shared_ligand_ids": 0,
+          "shared_clusters": 0,
+          "a_molecules_in_shared_clusters": 0,
+          "b_molecules_in_shared_clusters": 0
+        },
+        {
+          "pair": "train/val",
+          "shared_ligand_ids": 0,
+          "shared_clusters": 0,
+          "a_molecules_in_shared_clusters": 0,
+          "b_molecules_in_shared_clusters": 0
+        }
+      ]
+    }
+  },
+  "prediction_table": {
+    "rows": 2530,
+    "columns": [
+      "ligand_id",
+      "true_lgld50",
+      "pred_lgld50_plain",
+      "abs_residual",
+      "local_interval_width_90",
+      "local_half_width_90",
+      "covered_90",
+      "local_neff",
+      "mean_E_44",
+      "hERG",
+      "Respiratory",
+      "Neurotoxicity-DI",
+      "admet_toxic_burden"
+    ],
+    "covered": 2276,
+    "coverage": 0.899604743083004,
+    "mean_width": 1.4625435958451252
+  },
+  "local_public_comparison": {
+    "local_rows": 12651,
+    "same_id_set": true,
+    "same_cluster_labels": true,
+    "train_matches_public_split1": true,
+    "val_matches_public_split1": true,
+    "test_matches_public_split1": true
+  },
+  "file_sha256": {
+    "data/df_final.csv": "ad729bde9ba34fbb2c802ee0720404f97a6e5227294920b1fecb51bfde844bdb",
+    "data/excluded_molecules.csv": "637a75427e5496aa12a7eb307e2ce1b4cbf25c05d8be1f2fe1fa9d446ccafa9a",
+    "results/splits/split_indices.csv": "102be182ec759218534d42b5e9f3c81dce95664bf05d1bff785b6c41e8672dc4",
+    "notebooks/05_fig5_conformal_landscape.ipynb": "b518872d72c6bbfa89ec58de7b99b1482f448e1603c36d01e3a9a9844e7ffab4"
+  }
+}

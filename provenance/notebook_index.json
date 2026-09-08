@@ -1,0 +1,54 @@
+[
+  {
+    "notebook": "00_start_here.ipynb",
+    "title": "Study overview and revised conclusions"
+  },
+  {
+    "notebook": "01_compound_identity_and_data_repair.ipynb",
+    "title": "Compound identity and ADMET repair"
+  },
+  {
+    "notebook": "02_structural_splits_and_analogue_controls.ipynb",
+    "title": "Structural splits and training-analogue controls"
+  },
+  {
+    "notebook": "03_global_models_and_revised_ranking.ipynb",
+    "title": "Global models and corrected ADME\u2013Plain comparison"
+  },
+  {
+    "notebook": "04_conformal_prediction_and_stronger_predictor.ipynb",
+    "title": "Global and local residual intervals"
+  },
+  {
+    "notebook": "05_SHAP_and_group_permutations.ipynb",
+    "title": "SHAP and grouped permutation importance"
+  },
+  {
+    "notebook": "06_BBB_matched_comparison.ipynb",
+    "title": "BBB subgroup and matched model comparison"
+  },
+  {
+    "notebook": "07_biological_coordinates_and_docking_normalization.ipynb",
+    "title": "Biological coordinates, BTox and mean44"
+  },
+  {
+    "notebook": "08_permuted_coordinates_and_sensitivity.ipynb",
+    "title": "Localization controls and robustness"
+  },
+  {
+    "notebook": "09_applicability_maps_and_threshold_stability.ipynb",
+    "title": "Applicability maps, thresholds and local coverage"
+  },
+  {
+    "notebook": "10_historical_and_related_repository_audits.ipynb",
+    "title": "Historical reproduction and related-repository audit"
+  },
+  {
+    "notebook": "11_reproduce_and_reviewer_map.ipynb",
+    "title": "Reproduction, verification and reviewer map"
+  },
+  {
+    "notebook": "12_complete_figure_gallery.ipynb",
+    "title": "Complete figure gallery"
+  }
+]

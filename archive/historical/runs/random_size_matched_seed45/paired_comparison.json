@@ -1,0 +1,17 @@
+{
+  "coverage_joint_minus_global": {
+    "mean": -0.005604483586869495,
+    "ci_low": -0.011377569604309003,
+    "ci_high": 0.0
+  },
+  "width_joint_minus_global": {
+    "mean": -0.060222450125439836,
+    "ci_low": -0.07088704384223153,
+    "ci_high": -0.049580194363331755
+  },
+  "interval_score_joint_minus_global": {
+    "mean": -0.07608870810874392,
+    "ci_low": -0.10200090536134909,
+    "ci_high": -0.05078442748744739
+  }
+}

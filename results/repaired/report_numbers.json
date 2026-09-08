@@ -1,0 +1,13 @@
+{
+  "primary_seed": 42,
+  "primary_mean_rmse": 0.5233274477343776,
+  "primary_mean_global_coverage": 0.8987218655237319,
+  "primary_mean_joint_coverage": 0.8937206599038096,
+  "primary_mean_global_width": 1.6056483101616656,
+  "primary_mean_joint_width": 1.516211361506537,
+  "primary_mean_global_score": 2.4780053990625803,
+  "primary_mean_joint_score": 2.3974158280666087,
+  "random_mean_rmse": 0.4902724953880053,
+  "mean_relative_width_reduction": 0.055557886848363325,
+  "mean_relative_score_reduction": 0.032560593886298755
+}

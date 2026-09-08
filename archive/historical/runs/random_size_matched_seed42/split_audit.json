@@ -1,0 +1,30 @@
+{
+  "counts": {
+    "train": 8055,
+    "calibration": 2018,
+    "test": 2578
+  },
+  "clusters": {
+    "train": 5107,
+    "calibration": 1642,
+    "test": 2059
+  },
+  "pairs": {
+    "train/calibration": {
+      "shared_clusters": 702,
+      "a_molecules": 2442,
+      "b_molecules": 1053
+    },
+    "train/test": {
+      "shared_clusters": 866,
+      "a_molecules": 2756,
+      "b_molecules": 1348
+    },
+    "calibration/test": {
+      "shared_clusters": 422,
+      "a_molecules": 718,
+      "b_molecules": 774
+    }
+  },
+  "unassigned_ids": []
+}

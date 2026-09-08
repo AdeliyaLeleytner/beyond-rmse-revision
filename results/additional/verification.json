@@ -1,0 +1,9 @@
+{
+  "five_seeds_complete": true,
+  "raw_kernel_matches_saved_intervals": true,
+  "saved_model_predictions_match": true,
+  "BBB_test_ids_and_targets_identical": true,
+  "all_target_docking_scores_finite": true,
+  "normalization_fit": "proper training only",
+  "no_model_refitting": true
+}

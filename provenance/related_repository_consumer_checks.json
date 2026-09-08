@@ -1,0 +1,99 @@
+{
+  "features": {
+    "baseline": {
+      "n_features": 2094,
+      "admet_columns": 0,
+      "smiles_columns": []
+    },
+    "pca": {
+      "n_features": 2094,
+      "admet_columns": 0,
+      "smiles_columns": []
+    },
+    "adme": {
+      "n_features": 2162,
+      "admet_columns": 68,
+      "smiles_columns": []
+    },
+    "plain": {
+      "n_features": 2050,
+      "admet_columns": 0,
+      "smiles_columns": []
+    },
+    "bbb_pass": {
+      "n_features": 2094,
+      "admet_columns": 0,
+      "smiles_columns": []
+    }
+  },
+  "wrong_associations_by_split": {
+    "train": {
+      "n": 8043,
+      "wrong_ADMET": 1102
+    },
+    "val": {
+      "n": 2071,
+      "wrong_ADMET": 259
+    },
+    "test": {
+      "n": 2537,
+      "wrong_ADMET": 317
+    }
+  },
+  "actual_final_adme_fit": {
+    "fit": {
+      "n": 9095,
+      "wrong_ADMET": 1217
+    },
+    "early_stopping": {
+      "n": 1019,
+      "wrong_ADMET": 144
+    }
+  },
+  "comparison_with_repaired_common_ids": {
+    "n": 12583,
+    "target_equal": true,
+    "bbb_membership_equal": true,
+    "feature_matrices": {
+      "baseline": {
+        "changed_rows": 1145,
+        "changed_columns": 36
+      },
+      "pca": {
+        "changed_rows": 1145,
+        "changed_columns": 36
+      },
+      "adme": {
+        "changed_rows": 2682,
+        "changed_columns": 104
+      },
+      "plain": {
+        "changed_rows": 0,
+        "changed_columns": 0
+      }
+    }
+  },
+  "isolated_ADMET_repair_same_rows": {
+    "baseline": {
+      "changed_rows": 0,
+      "changed_columns": 0
+    },
+    "pca": {
+      "changed_rows": 0,
+      "changed_columns": 0
+    },
+    "adme": {
+      "changed_rows": 1662,
+      "changed_columns": 68
+    },
+    "plain": {
+      "changed_rows": 0,
+      "changed_columns": 0
+    }
+  },
+  "published_proteins_equal_clipped_previous_repair": true,
+  "shap_adme_test_sample": {
+    "n": 200,
+    "wrong_ADMET": 29
+  }
+}

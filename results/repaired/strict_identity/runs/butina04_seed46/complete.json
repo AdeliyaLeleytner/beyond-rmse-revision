@@ -1,0 +1,39 @@
+{
+  "run": "butina04_seed46",
+  "counts": {
+    "calibration": 1849,
+    "test": 2494,
+    "train": 7850
+  },
+  "selected_markers": [
+    "hERG",
+    "Respiratory",
+    "Neurotoxicity-DI"
+  ],
+  "rmse": 0.5097779841826034,
+  "mae": 0.35542541803818695,
+  "r2": 0.4604015454977788,
+  "spearman": 0.6577789577116923,
+  "global_quantile": 0.7992811497043355,
+  "original_quantile_rule": false,
+  "coordinate_scaler_fit": "proper_train",
+  "coordinate_mu": [
+    -6.575690214244349,
+    0.35094177596530685,
+    0.7784680719836012,
+    0.6385409835067796
+  ],
+  "coordinate_sd": [
+    1.9509248036127664,
+    0.31035586553960187,
+    0.2627146483506554,
+    0.32371306109851183
+  ],
+  "quadrant_thresholds": {
+    "phenotype": 1.790456966497004,
+    "mean_E": -6.797727272727275
+  },
+  "model_seed": 42,
+  "elapsed_seconds": 5.076389789581299,
+  "train_fingerprint_count": 2048
+}

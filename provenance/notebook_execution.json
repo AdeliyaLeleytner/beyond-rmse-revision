@@ -1,0 +1,93 @@
+[
+  {
+    "notebook": "00_start_here.ipynb",
+    "seconds": 2.94,
+    "code_cells": 4,
+    "embedded_figures": 0,
+    "errors": 0
+  },
+  {
+    "notebook": "01_compound_identity_and_data_repair.ipynb",
+    "seconds": 12.7,
+    "code_cells": 6,
+    "embedded_figures": 1,
+    "errors": 0
+  },
+  {
+    "notebook": "02_structural_splits_and_analogue_controls.ipynb",
+    "seconds": 2.72,
+    "code_cells": 6,
+    "embedded_figures": 2,
+    "errors": 0
+  },
+  {
+    "notebook": "03_global_models_and_revised_ranking.ipynb",
+    "seconds": 14.12,
+    "code_cells": 6,
+    "embedded_figures": 2,
+    "errors": 0
+  },
+  {
+    "notebook": "04_conformal_prediction_and_stronger_predictor.ipynb",
+    "seconds": 3.89,
+    "code_cells": 5,
+    "embedded_figures": 2,
+    "errors": 0
+  },
+  {
+    "notebook": "05_SHAP_and_group_permutations.ipynb",
+    "seconds": 8.95,
+    "code_cells": 5,
+    "embedded_figures": 5,
+    "errors": 0
+  },
+  {
+    "notebook": "06_BBB_matched_comparison.ipynb",
+    "seconds": 3.79,
+    "code_cells": 4,
+    "embedded_figures": 1,
+    "errors": 0
+  },
+  {
+    "notebook": "07_biological_coordinates_and_docking_normalization.ipynb",
+    "seconds": 3.26,
+    "code_cells": 6,
+    "embedded_figures": 2,
+    "errors": 0
+  },
+  {
+    "notebook": "08_permuted_coordinates_and_sensitivity.ipynb",
+    "seconds": 2.82,
+    "code_cells": 6,
+    "embedded_figures": 2,
+    "errors": 0
+  },
+  {
+    "notebook": "09_applicability_maps_and_threshold_stability.ipynb",
+    "seconds": 1.92,
+    "code_cells": 4,
+    "embedded_figures": 3,
+    "errors": 0
+  },
+  {
+    "notebook": "10_historical_and_related_repository_audits.ipynb",
+    "seconds": 1.86,
+    "code_cells": 4,
+    "embedded_figures": 0,
+    "errors": 0
+  },
+  {
+    "notebook": "11_reproduce_and_reviewer_map.ipynb",
+    "seconds": 1.57,
+    "code_cells": 4,
+    "embedded_figures": 0,
+    "errors": 0
+  },
+  {
+    "notebook": "12_complete_figure_gallery.ipynb",
+    "seconds": 1.71,
+    "code_cells": 2,
+    "embedded_figures": 9,
+    "errors": 0
+  }
+]

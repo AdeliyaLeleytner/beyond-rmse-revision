@@ -1,0 +1,17 @@
+{
+  "fingerprint_sample_n": 507,
+  "fingerprint_sample_mismatch_by_chirality": {
+    "False": 171,
+    "True": 0
+  },
+  "saved_quadrant_thresholds": [
+    {
+      "btox_median": 1.7973947916179895,
+      "mean_E_44_median": -6.936363636363636
+    }
+  ],
+  "test_medians": {
+    "phenotype": 1.8051429018378258,
+    "meanE": -6.970454545454546
+  }
+}

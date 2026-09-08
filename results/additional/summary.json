@@ -1,0 +1,84 @@
+{
+  "docking_normalization": [
+    {
+      "comparison": "phenotype_only",
+      "normalized_score": 2.4091406100164012,
+      "reference_score": 2.4203460269281605,
+      "delta": -0.01120541691175902,
+      "normalized_coverage": 0.8935508200478122,
+      "normalized_width": 1.525737615308684
+    },
+    {
+      "comparison": "raw_mean44",
+      "normalized_score": 2.4091406100164012,
+      "reference_score": 2.3974158280666087,
+      "delta": 0.011724781949792361,
+      "normalized_coverage": 0.8935508200478122,
+      "normalized_width": 1.525737615308684
+    }
+  ],
+  "bbb_same_subset": [
+    {
+      "model": "BBB_pass",
+      "rmse": 0.4759079465159595,
+      "r2": 0.3880216831350082,
+      "spearman": 0.6359425773978492,
+      "ccc": 0.5630973009246201
+    },
+    {
+      "model": "Baseline",
+      "rmse": 0.47672211297869777,
+      "r2": 0.3859502180225838,
+      "spearman": 0.6314031551214058,
+      "ccc": 0.5808555639558103
+    },
+    {
+      "model": "Plain",
+      "rmse": 0.46278764623625374,
+      "r2": 0.42132124807745147,
+      "spearman": 0.6545560857549174,
+      "ccc": 0.6039655837055713
+    }
+  ],
+  "group_permutation_importance": [
+    {
+      "model": "ADME",
+      "group": "ADME",
+      "mean_mse_increase": 0.31686739921586043
+    },
+    {
+      "model": "ADME",
+      "group": "Fingerprints",
+      "mean_mse_increase": 0.03550911350868032
+    },
+    {
+      "model": "ADME",
+      "group": "PhysChem",
+      "mean_mse_increase": 0.0289665039480638
+    },
+    {
+      "model": "ADME",
+      "group": "Proteins",
+      "mean_mse_increase": 0.014846538696509478
+    },
+    {
+      "model": "Baseline",
+      "group": "Fingerprints",
+      "mean_mse_increase": 0.2712990466389299
+    },
+    {
+      "model": "Baseline",
+      "group": "PhysChem",
+      "mean_mse_increase": 0.12894097594373807
+    },
+    {
+      "model": "Baseline",
+      "group": "Proteins",
+      "mean_mse_increase": 0.06058383381807012
+    }
+  ],
+  "BBB_rule_mismatches": 0,
+  "study_metadata_columns": [
+    "ADMET_source_SMILES"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "model_order": [
+    "Baseline",
+    "PCA",
+    "ADME",
+    "Plain",
+    "BBB pass"
+  ],
+  "fixed_params": {
+    "Baseline": {
+      "iterations": 762,
+      "depth": 6,
+      "learning_rate": 0.22486425123692586,
+      "l2_leaf_reg": 4.414780019047116,
+      "random_strength": 1.2801770049351129,
+      "bagging_temperature": 0.19362599980591533
+    },
+    "PCA": {
+      "iterations": 762,
+      "depth": 6,
+      "learning_rate": 0.22486425123692586,
+      "l2_leaf_reg": 4.414780019047116,
+      "random_strength": 1.2801770049351129,
+      "bagging_temperature": 0.19362599980591533
+    },
+    "ADME": {
+      "iterations": 362,
+      "depth": 8,
+      "learning_rate": 0.1205712628744377,
+      "l2_leaf_reg": 6.387926357773329,
+      "random_strength": 0.31203728088487304,
+      "bagging_temperature": 0.7799726016810132
+    },
+    "Plain": {
+      "iterations": 708,
+      "depth": 7,
+      "learning_rate": 0.14074393812229913,
+      "l2_leaf_reg": 3.536749818416572,
+      "random_strength": 1.593003811844754,
+      "bagging_temperature": 3.234900862052149
+    },
+    "BBB pass": {
+      "iterations": 614,
+      "depth": 7,
+      "learning_rate": 0.14978277007160656,
+      "l2_leaf_reg": 1.0200393001337464,
+      "random_strength": 1.655136721037486,
+      "bagging_temperature": 1.1852900897108616
+    }
+  },
+  "random_state": 42,
+  "test_size": 0.2,
+  "val_size": 0.2,
+  "n_pca_components": 3,
+  "confidence_levels": [
+    0.8,
+    0.9,
+    0.95
+  ],
+  "conformal_iter": 30,
+  "calib_size": 500,
+  "model_split_index": 1,
+  "input": "data/df_final.csv"
+}

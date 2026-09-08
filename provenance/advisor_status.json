@@ -1,0 +1,8 @@
+{
+  "valid_advice_delivered": false,
+  "consultation_id": null,
+  "actual_model": null,
+  "wrapper_exit_code": 4,
+  "reason": "claude CLI is not installed: claude",
+  "decision_basis": "Source/data inspection, fresh pipeline execution, notebook execution and numeric artifact comparisons."
+}

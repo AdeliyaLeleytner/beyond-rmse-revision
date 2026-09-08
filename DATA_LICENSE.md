@@ -1,0 +1,1 @@
+Code is distributed under the included upstream license. Dataset and ADMET outputs retain their source terms; this code license does not relicense third-party datasets or external model outputs. This repository preserves source provenance and does not claim experimental validation of the ADMET predictions.

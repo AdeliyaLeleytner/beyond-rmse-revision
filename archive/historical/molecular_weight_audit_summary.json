@@ -1,0 +1,22 @@
+{
+  "MW_vs_cleaned_rdkit_MolWt": {
+    "mean_abs_difference": 12.215047743261438,
+    "max_abs_difference": 1095.5929999999998,
+    "fraction_within_0_01": 7.904513477195479e-05
+  },
+  "MW_vs_cleaned_rdkit_ExactMolWt": {
+    "mean_abs_difference": 11.927872161842465,
+    "max_abs_difference": 1091.9204798199994,
+    "fraction_within_0_01": 0.8422259109951783
+  },
+  "MW_g_per_mol_vs_cleaned_rdkit_MolWt": {
+    "mean_abs_difference": 0.4985292071773069,
+    "max_abs_difference": 581.302,
+    "fraction_within_0_01": 0.9652991858351119
+  },
+  "MW_g_per_mol_vs_cleaned_rdkit_ExactMolWt": {
+    "mean_abs_difference": 0.8398762097971916,
+    "max_abs_difference": 582.543208352,
+    "fraction_within_0_01": 7.904513477195479e-05
+  }
+}
